@@ -1,0 +1,16 @@
+Date 6/3/2025
+Notes
+
+•	start with actual vehicles, jaiabot, there are hydros and listening bots
+•	2 bot case has hub not 3
+•	Twist lock, don’t grab on to sensors 
+•	Closing pitch the middle and push the fins there at the same time and losen till open
+•	Inside is the battery housing 
+•	There are more sensors on the bottom, put the bottom on the top and you can remove the battery
+•	To do battery cabling you want to take them and go straight up
+•	Port is left starboard is right
+•	The big cable on outside, skinner one in the middle rests near the battery
+•	To close, Rotate it backwards, align the two triangles and twist till it closes 
+•	Beep means there is power
+•	Important to open it with the bot body being horizontal
+•	Open them all down dry out the twist lock
