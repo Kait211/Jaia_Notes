@@ -1,0 +1,3 @@
+touch code.cpp
+g++ code.cpp -o code
+./code
