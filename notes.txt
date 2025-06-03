@@ -14,3 +14,5 @@ Notes
 •	Beep means there is power
 •	Important to open it with the bot body being horizontal
 •	Open them all down dry out the twist lock
+
+may make notes about sim if need be
