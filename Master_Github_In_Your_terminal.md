@@ -176,6 +176,14 @@ git commit -m "message"
 ```
 git push origin branchName
 ```
+5. If using token instead of ssh key
+```
+# For username enter your GitHub username
+Username for 'https://github.com': 
+# For password enter GitHub token created earlier
+Password for 'https://username@github.com':
+```
+
 
 <br>
 <a id="opening-jaiabot-repository-and-branch-from-terminal"></a>
