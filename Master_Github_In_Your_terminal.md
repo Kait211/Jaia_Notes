@@ -7,6 +7,7 @@
 - [Setting Your Git Username And Email](#setting-your-git-username-and-email)
 - [Adding A Remote Repository](#adding-a-remote-repository)
 - [Making A New Branch](#making-a-new-branch)
+- [How To Fetch A Newly Created Branch](#how-to-fetch-a-newly-created-branch)
 - [How To Pull From A Branch](#how-to-pull-from-a-branch)
 - [How To Push To A Branch](#how-to-push-to-a-branch)
 - [Opening Jaiabot Repository And Branch From Terminal](#opening-jaiabot-repository-and-branch-from-terminal)
@@ -130,6 +131,33 @@ git checkout branchName
 ```
 
 <br>
+<a id="how-to-fetch-a-newly-created-branch"></a>
+
+# How To Fetch A Newly Created Branch
+Note: If you know the branch name
+1. Fetch branch
+```
+git fetch origin branchName
+```
+2. Then switch to the fetched branch
+```
+git checkout branchName
+```
+Note: If you don't know the branch name and want to fetch everything
+1. fetch all branches
+```
+git fetcg --all
+```
+2. Then list all remote branches
+```
+git branch -r
+```
+3. Then check out the branch you want to switch to
+```
+git checkout branchName
+```
+
+<br>
 <a id="how-to-pull-from-a-branch"></a>
 
 # How To Pull From A Branch
@@ -149,6 +177,17 @@ git pull origin branchName
 3. Enter Visual Studio Code 
 ```
 code .
+```
+Note: If you want to force pull a branch in git (i.e., discard your local changes and make your local branch exactly match the remote)
+
+WARNING: This will overwrite any local changes (committed or uncommitted). Make sure you're okay with losing them, or back them up first.
+1. Fetch the latest changes from the remote
+```
+git fetcg origin
+```
+2. Reset your local branch to match the remote branch
+```
+git reset --hard origin/branchName
 ```
 
 <br>
