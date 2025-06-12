@@ -13,6 +13,7 @@
 - [Opening Jaiabot Repository And Branch From Terminal](#opening-jaiabot-repository-and-branch-from-terminal)
 - [Viewing Commit History](#viewing-commit-history)
 - [Checking The Status Of Your Git Repository](#checking-the-status-of-your-git-repository)
+- [How To Merge Local And Remote Changes](#how-to-merge-local-and-remote-changes)
 - [How To Merge Two Branches](#how-to-merge-two-branches)
 - [How To Fix Merge Conflict](#how-to-fix-merge-conflict)
 - [Undoing Changes](#undoing-changes)
@@ -264,6 +265,33 @@ git status
 * Files that have been modified but not staged
 * Files that have been staged and ready to be committed
 * Any files not added to Git
+
+<br>
+<a id="how-to-merge-local-and-remote-changes"></a>
+
+# How To Merge Local And Remote Changes
+Sometimes both your local branch and the remote branch have changes. In this case, Git won’t let you push until you reconcile them.
+
+1. First, commit any local changes:
+```
+git add .
+git commit -m "my local changes"
+```
+2. Then pull the remote branch using merge (this creates a merge commit):
+```
+git pull --no-rebase origin branchName
+```
+3. If there's a merge conflict, Git will insert markers 
+4. Manually edit the file to keep what you want, then mark it as resolved
+```
+git add .
+git commit -m "Resolved merge conflict"
+```
+5. Finally, Push
+```
+git push origin branchName
+```
+Note: 🧠 **What this does**: Combines both your work and the changes from GitHub into one branch. Git will try to merge automatically, but if there's a conflict, you’ll fix it manually.
 
 <br>
 <a id="how-to-merge-two-branches"></a>
