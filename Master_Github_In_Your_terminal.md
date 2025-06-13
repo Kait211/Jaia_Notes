@@ -118,9 +118,9 @@ origin  git@github.com:YourUserName/YourRepoName.git (push)
 <a id="making-a-new-branch"></a>
 
 # Making A New Branch
-**Create a new branch off of 1.y**
+**Create a new branch off of 2.y**
 ```
-git checkout 1.y
+git checkout 2.y
 git pull
 # make sure to follow naming conventions when creating a new branch
 git checkout -b branch name
