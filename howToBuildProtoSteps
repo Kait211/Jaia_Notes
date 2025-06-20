@@ -1,0 +1,4 @@
+1. cd ~/jaiabot/build/amd64
+2. make -j$(nproc)
+3. or if you just want to rebuild messages 
+make jaiabot_messages
