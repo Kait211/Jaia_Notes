@@ -10,6 +10,7 @@
 - [How To Fetch A Newly Created Branch](#how-to-fetch-a-newly-created-branch)
 - [How To Pull From A Branch](#how-to-pull-from-a-branch)
 - [How To Push To A Branch](#how-to-push-to-a-branch)
+- [How To Stash](#how-to-stash)
 - [Opening Jaiabot Repository And Branch From Terminal](#opening-jaiabot-repository-and-branch-from-terminal)
 - [Viewing Commit History](#viewing-commit-history)
 - [Checking The Status Of Your Git Repository](#checking-the-status-of-your-git-repository)
@@ -224,6 +225,21 @@ Username for 'https://github.com':
 Password for 'https://username@github.com':
 ```
 
+<br>
+<a id = "how-to-stash"></a>
+
+# How To Stash
+Note: git stash is used to temporarily save uncommitted changes in your working directory without committing them, allowing you to switch branches, pull updates, or work on something else without losing progress. It's useful when you're in the middle of a task but need to pause, avoid merge conflicts, or try out other code changes. 
+1. can reapply stashed changes by using either
+```
+git stash apply
+Note:  re-applies the stashed changes but keeps them in the stash list, in case you want to use them again later.
+```
+2. or
+```
+git stash pop 
+Note: re-applies the stashed changes and then deletes that stash entry from the list.
+```
 
 <br>
 <a id="opening-jaiabot-repository-and-branch-from-terminal"></a>
