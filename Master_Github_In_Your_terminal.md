@@ -240,6 +240,14 @@ Note:  re-applies the stashed changes but keeps them in the stash list, in case 
 git stash pop 
 Note: re-applies the stashed changes and then deletes that stash entry from the list.
 ```
+3.To see stash list
+```
+git stash list
+Note: Each entry is a snapshot of your uncommitted changes at the time you ran git stash. You can use these labels to apply or drop specific stashes if needed, like:
+
+git stash apply stash@{1}
+git stash drop stash@{0}
+```
 
 <br>
 <a id="opening-jaiabot-repository-and-branch-from-terminal"></a>
