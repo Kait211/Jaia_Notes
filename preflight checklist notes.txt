@@ -1,0 +1,22 @@
+
+password for jaiabot fleet wifi: alfalfa1
+
+preflight checklist
+
+jcc: 10.23.botfleetnumber.11
+
+jed in settings on tablet
+
+liaison: 10.23.fleet#.100+botid:30000
+
+before throwing in water move around for imu of 3 in data
+
+to download mission
+
+go to jaia wiki (confluence)
+
+go to production tab
+
+to USGS(fleet #)
+
+go to sea trials they are json files down on computer or tablet

@@ -1,0 +1,19 @@
+ make jaiabot_production -j$(nproc)
+
+make -j$(nproc)
+
+
+for protos
+make jaiabot_messages -j$(nproc)
+
+//for copying from old commit 
+ git show 6b442be0d676668a204501ab91599e9da3093259:src/lib/liaison/postlaunch/liaison_jaiabot.cpp > ~/liaison_jaiabot_old.cpp
+
+
+
+wifi password
+@#jaiabot$72
+
+//if vs code is weird in anyway like not showing error lines do 
+ctrl + shift + p
+
